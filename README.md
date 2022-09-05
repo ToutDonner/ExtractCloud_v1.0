@@ -29,6 +29,7 @@ Clone the repository and catkin_make:
 ```
     cd ~/$A_ROS_DIR$/src
     git clone https://github.com/ToutDonner/ExtractCloud_v1.0.git
+    在extract_pt中新建一个include文件夹
     catkin_make
     source devel/setup.bash
 ```
