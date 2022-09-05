@@ -1,0 +1,11 @@
+<launch>
+<!-- Launch file for Livox AVIA LiDAR -->
+
+	<arg name="rviz" default="true" />
+
+    <node pkg="extract_pc" type="extract_pc" name="extract_pc" output="screen" />
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find extract_pc)/rviz_cfg/jlu_ex.rviz" />
+
+
+</launch>
